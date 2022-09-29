@@ -52,6 +52,7 @@ def main():
     ### REMOVE THE NEXT TWO LINES IF YOU USE CRONTAB, WINDOWS TASK SCHEDULER OR ANY OTHER DAILY AUTO RUN PROGRAM
     print("The program wil sleep for 24 hours and run again. \nDO NOT CLOSE THIS PROGRAM/WINDOW. \n\nTo cancel: Ctrl+C or Kill Python")
     sleep(86400)
+    main()
 
 if __name__ == "__main__":
     main()
