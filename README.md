@@ -2,7 +2,7 @@
 
 # WA-ScheduledMessenger
 
-A Python program that checks if today is the date to send a WhatsApp message to the corresponding person. For example on someones birthday or anniversary.
+A Python3 program that checks if today is the date to send a WhatsApp message to the corresponding person. For example on someones birthday or anniversary.
 
 Works on Linux, Windows and MacOS
 
