@@ -12,7 +12,7 @@ Works on Linux, Windows and MacOS
 Install WA-ScheduledMessenger
 
 ```bash
-  git clone link-to-project
+  git clone https://github.com/tdeerenberg/WA-ScheduledMessenger.git
   cd WA-ScheduledMessenger
   pip install -r requirements.txt
 ```
