@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>WA-ScheduledMessenger WebUI</title>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+
+        <!--Header-->
+        <h1>WA-ScheduledMessenger History</h1>
+        <p1 class="subtitle">
+            A Python3 program that checks if today is the 
+            date to send a WhatsApp message to the corresponding person.
+        </p1>
+        <hr>
+
+        <!--Navigation list-->
+        <div class="features">
+        <ul><br>Navigation:<br>
+            <li><a href="/schedule" class="features_list">View the schedule</a></li>
+            <li><a href="/erase" class="features_list">Erase the schedule</a></li>
+            <li><a href="/append" class="features_list">Add item to the schedule</a></li>
+            <li><a href="/run" class="features_list">Send the scheduled messages once</a></li>
+            <li><a href="/daily" class="features_list">Send the scheduled messages daily</a></li>
+            <li><a href="/history" class="features_list">View message history</a></li>
+            <li><a href="/home" class="features_list">Homepage</a></li>
+            <li><a href="/logout" class="features_list">Logout</a></li>
+        </ul>
+        </div>
+
+        <!--History-->
+        <pre>{{ history }}</pre>
+
+        <!--Footer-->
+        <div class="footer">
+            <footer>
+                <p class="footerText">
+                    © 2022 tdeerenberg |
+                    <a href="https://github.com/tdeerenberg" target="_blank">Github</a> |
+                    <a href="https://choosealicense.com/licenses/gpl-3.0/" target="_blank">GPLv3 License</a>
+                </p>
+            </footer>
+        </div>
+
+    </body>
+</html>

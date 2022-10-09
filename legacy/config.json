@@ -1,0 +1,5 @@
+{
+    "DATE_FILENAME":"date.csv",
+    "ERROR_LOG_FILENAME":"ErrorNotSent.log",
+    "SUCCESSFUL_MESSAGE_LOG":"SentMessages.log"
+}
