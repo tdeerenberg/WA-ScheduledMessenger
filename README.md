@@ -1,9 +1,19 @@
-
 # WA-ScheduledMessenger
-
 A Python3 program with a WebUI that checks if today is the date to send a WhatsApp message to the corresponding person. For example on someones birthday or anniversary.
 
 Works on Linux, Windows and MacOS
+
+## Features
+
+- Automattically check daily if messages need to be sent
+- Erasing the schedule via the WebUI
+- Adding tasks to the schedule via the WebUI
+- Launch a manual check and send messages (if the schedule matches the date)
+- Log on to the WebUI with other devices on the network (or from any network with port forwarding (not recommended))
+- All functions are compatible if logged on via another device
+
+## Demo
+[![Watch the video](https://github.com/tdeerenberg/WA-ScheduledMessenger/blob/main/demo-thumbnail.png)](https://raw.githubusercontent.com/tdeerenberg/WA-ScheduledMessenger/main/demo.mp4)
 ## Installation
 
 Install WA-ScheduledMessenger
@@ -26,25 +36,10 @@ or
 ```bash
   python3 app.py
 ```
-
-
 ## Configuration
 
 #### Username and password
 All configurable settings can be configured in`config.json`
-## Features
-
-- Automattically check daily if messages need to be sent
-- Erasing the schedule via the WebUI
-- Adding tasks to the schedule via the WebUI
-- Launch a manual check and send messages (if the schedule matches the date)
-- Log on to the WebUI with other devices on the network (or from any network with port forwarding (not recommended))
-- All functions are compatible if logged on via another device
-
-## Demo
-
-Insert gif or link to demo
-
 
 ## Run Daily
 
@@ -57,6 +52,7 @@ The option `Send the scheduled messages daily` in the navigation bar once logged
 WA-ScheduledMessenger can be added to the Crontab table (Linux) and to Windows Task Scheduler (Windows). If you use any other program that schedules and runs programs every day, you can use that.
 
 The Python program that needs to be added to the scheduler application is ScheduledMessenger.py.
+
 ## Authors
 
 - [@tdeerenberg](https://www.github.com/tdeerenberg)
