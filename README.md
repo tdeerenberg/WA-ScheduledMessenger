@@ -3,6 +3,7 @@ A Python3 program with a WebUI that checks if today is the date to send a WhatsA
 
 Works on Linux, Windows and MacOS
 
+For the Legacy version (first version of the project), click [here](https://github.com/tdeerenberg/WA-ScheduledMessenger/tree/main/legacy)
 ## Features
 
 - Automattically check daily if messages need to be sent
