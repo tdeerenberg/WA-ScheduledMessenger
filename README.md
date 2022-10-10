@@ -37,6 +37,7 @@ or
 ```bash
   python3 app.py
 ```
+After running app.py, the Web Interface should be up and running on **localhost (127.0.0.1) and your local ip address (192.168.x.x) port 2160**
 ## Configuration
 
 #### Username and password
